@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  max-width: 317px;
+  font-family: Inter, sans-serif;
+}
+
+header {
+  width: 317px;
+  background: #fdd7d7;
+  border-radius: 10px 10px 0px 0px;
+}
+
+main {
+  width: 317px;
+  padding-top: 10px;
+  padding-left: 27px;
+  background: #fdd7d7;
+  float:left;
+  clear:none;  
+}
+
+footer {
+  width: 317px;
+  background: #C6C2BE;
+  padding: 19.5px 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  float:left;
+  clear:none;
+  border-radius: 0px 0px 10px 10px
+}
+
+.profile-pic {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+
+.profile-name {
+  text-align: center;
+  color: #2B283A;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.profile-job {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.8px;
+  line-height: 6px;
+  text-align: center;
+  color: #F47D27;
+}
+
+.profile-website {
+  display: block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 17px;
+}
+
+.email-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 9px 25px 9px 25px;
+  
+  width: 115px;
+  background: #FFFFFF;
+
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  cursor: pointer;
+  
+}
+
+.linkedin-button {
+  display: flex;
+  align-items: center;
+  padding: 9px 15px 9px 18px;
+
+  width: 115px;
+  background: rgb(41, 127, 229);
+
+  border: 0px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.about-title {
+  color: #2B283A;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.about-text {
+  text-align: justify;
+  padding-right: 27px;
+  color: #4A4E74;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 150%;
+}
